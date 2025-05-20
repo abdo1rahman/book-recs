@@ -1,0 +1,89 @@
+title,genre_id,amazon_rating,book_length,cover_img_url,author_id,series
+Harry Potter and the Sorcerer's Stone,1,4.8,309,""https://m.media-amazon.com/images/I/81q77Q39nEL._AC_UF1000,1000_QL80_.jpg",1.0,Harry Potter
+The Hunger Games,2,4.7,374,https://diwanegypt.com/wp-content/uploads/2020/08/9780439023528.jpg,2.0,The Hunger Games
+Twilight,3,4.5,498,https://diwanegypt.com/wp-content/uploads/2022/02/9781904233657.jpg,3.0,Twilight Saga
+Dune,4,4.6,412,https://diwanegypt.com/wp-content/uploads/2020/12/9780441172719.jpg,4.0,Dune
+The Girl on the Train,5,4.3,336,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1574805682i/22557272.jpg,,
+Divergent,2,4.3,487,https://upload.wikimedia.org/wikipedia/en/f/f4/Divergent_%28book%29_by_Veronica_Roth_US_Hardcover_2011.jpg,5.0,Divergent
+The Da Vinci Code,5,4.4,454,https://diwanegypt.com/wp-content/uploads/2022/06/9780552159715.jpg,6.0,Robert Langdon
+A Game of Thrones,6,4.7,694,https://m.media-amazon.com/images/I/81dvjub+IRL._AC_UF1000,1000_QL80_.jpg,7.0,A Song of Ice and Fire
+It,7,4.5,1138,https://m.media-amazon.com/images/I/71ZIovNjw+L._AC_UF1000,1000_QL80_.jpg,8.0,
+"The Lion, the Witch and the Wardrobe",1,4.8,206,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1353029077i/100915.jpg,9.0,The Chronicles of Narnia
+The Martian,4,4.6,369,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1413706054i/18007564.jpg,10.0,
+To Kill a Mockingbird,8,4.7,336,"https://m.media-amazon.com/images/I/71FxgtFKcQL._AC_UF1000,1000_QL80_.jpg",11.0,
+The Power of Habit,9,4.6,371,https://diwanegypt.com/wp-content/uploads/2020/08/9781847946249.jpg,12.0,
+Clean Code,10,4.7,464,"https://m.media-amazon.com/images/I/51E2055ZGUL._AC_UF1000,1000_QL80_.jpg",13.0,
+Flatland,11,4.4,160,https://m.media-amazon.com/images/I/61wubGbULDL.jpg,14.0,
+Sapiens,12,4.8,443,https://m.media-amazon.com/images/I/713jIoMO3UL.jpg,15.0,
+A Clash of Kings,6,4.7,768,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1567840212i/10572.jpg,7.0,A Song of Ice and Fire
+The Lightning Thief,2,4.6,377,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1400602609i/28187.jpg,16.0,Percy Jackson
+Gone Girl,5,4.2,432,"https://m.media-amazon.com/images/I/71NV0obX14L._AC_UF1000,1000_QL80_.jpg",17.0,
+The Subtle Art of Not Giving a F*ck,9,4.5,224,"https://m.media-amazon.com/images/I/71QKQ9mwV7L._AC_UF1000,1000_QL80_.jpg",18.0,
+1984,13,4.7,328,https://m.media-amazon.com/images/I/61NAx5pd6XL.jpg,19.0,
+The Catcher in the Rye,8,4.3,277,https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1398034300i/5107.jpg,20.0,
+The Hobbit,1,4.8,310,https://m.media-amazon.com/images/I/712cDO7d73L.jpg,21.0,
+The Fellowship of the Ring,1,4.8,423,https://diwanegypt.com/wp-content/uploads/2020/08/9780261102354.jpg,21.0,
+The Two Towers,1,4.8,352,https://upload.wikimedia.org/wikipedia/en/a/a1/The_Two_Towers_cover.gif,21.0,
+The Return of the King,1,4.8,416,https://upload.wikimedia.org/wikipedia/en/1/11/The_Return_of_the_King_cover.gif,21.0,
+The Unfinished Tales,1,4.6,400,https://harpercollins.co.uk/cdn/shop/files/x9780007322572_ba79c9d6-9332-4273-943c-699d3a1f5aa9.jpg?v=1746592130,21.0,
+The Letters of J.R.R. Tolkien,1,4.6,300,https://upload.wikimedia.org/wikipedia/en/d/db/Tolkien_Letters_Cover.jpg,21.0,
+The Art of The Letters of J.R.R. Tolkien,1,4.9,611,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1685925271i/172268944.jpg,21.0,
+The Art of The Lord of the Rings,1,4.9,182,"https://m.media-amazon.com/images/I/515OF+2hpYL._AC_UF894,1000_QL80_.jpg",21.0,
+The Art of The Lord of the Rings: The Return of the King,1,3.9,454,https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQQc9TF2jMcUd4xoSyvFS1be_J9C1jHLjm4FTAqmBJs9jcBLzOJoSvylFlc5zMbVnh0LofggQ,21.0,
+The Art of The Lord of the Rings: The Two Towers,1,3.7,727,https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRfX3_TmvNfKHyrmY9WhWPQmneBgdlvzewYM2SZ9RPio7CSFAsy,21.0,
+The Art of The Lord of the Rings: The Hobbit,1,4.7,222,"https://m.media-amazon.com/images/I/81Ie38oW57L._AC_UF1000,1000_QL80_.jpg",21.0,
+The Art of The Lord of the Rings: The History of Middle-earth,1,4.5,253,https://archive.org/services/img/history-of-middle-earth-01-the-book-of-lost-tales-1/full/pct:200/0/default.jpg,21.0,
+The Art of The Lord of the Rings: The Children of H?rin,1,3.8,554,https://upload.wikimedia.org/wikipedia/en/8/85/The_Children_of_Hurin_cover.jpg,21.0,
+The Art of The Lord of the Rings: The Fellowship of the Ring,1,4.2,791,https://m.media-amazon.com/images/I/512zVlD070L.jpg,21.0,
+The Art of The Lord of the Rings: The Silmarillion,1,4.1,527,"https://m.media-amazon.com/images/I/81Ygs92I6GL._AC_UF1000,1000_QL80_.jpg",21.0,
+The Cruel Prince,2,4.2,370,https://online.fliphtml5.com/qlqrn/zzwr/files/large/1.webp?1641883129&1641883129,22.0,Folk of the Air
+The Wicked King,2,4.3,368,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1520620414i/26032887.jpg,22.0,Folk of the Air
+The Queen of Nothing,2,4.4,300,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1553624975i/26032912.jpg,22.0,Folk of the Air
+The Stolen Heir,2,4.5,370,https://diwanegypt.com/wp-content/uploads/2023/06/9781471413629.jpg,22.0,Elfhame
+The Prisoner's Throne,2,4.6,384,https://diwanegypt.com/wp-content/uploads/2024/07/9781471415227.jpg,22.0,Elfhame
+Throne of Glass,2,4.5,432,"https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale,dpr_1.5/jackets/9781526635297.jpg",23.0,Throne of Glass
+Crown of Midnight,2,4.6,420,"https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale,dpr_1.5/jackets/9781526635211.jpg",23.0,Throne of Glass
+Heir of Fire,2,4.7,562,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1673566654i/76706470.jpg,23.0,Throne of Glass
+Queen of Shadows,2,4.8,648,https://cherryblossom-books.com/wp-content/uploads/2022/11/9781639731015.jpeg,23.0,Throne of Glass
+Empire of Storms,2,4.9,704,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1676979605i/76713323.jpg,23.0,Throne of Glass
+Kingdom of Ash,2,4.9,984,https://diwanegypt.com/wp-content/uploads/2023/05/9781526635273.jpg,23.0,Throne of Glass
+The Assassin's Blade,2,4.8,672,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680869667i/126062562.jpg,23.0,Throne of Glass
+A Court of Thorns and Roses,2,4.6,432,https://images.amazon.com/court_thorns_roses.jpg,23.0,A Court of Thorns and Roses
+A Court of Mist and Fury,2,4.7,624,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1620325671i/50659468.jpg,23.0,A Court of Thorns and Roses
+A Court of Wings and Ruin,2,4.8,704,https://diwanegypt.com/wp-content/uploads/2020/12/9781526617170.jpg,23.0,A Court of Thorns and Roses
+A Court of Frost and Starlight,2,4.5,272,https://diwanegypt.com/wp-content/uploads/2021/03/9781526617187-1.jpg,23.0,A Court of Thorns and Roses
+A Court of Silver Flames,2,4.6,768,https://m.media-amazon.com/images/I/91E4aDzo8xL.jpg,23.0,A Court of Thorns and Roses
+House of Earth and Blood,2,4.7,800,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1559142847i/44778083.jpg,23.0,Crescent City
+House of Sky and Breath,2,4.8,800,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1633097753i/40132775.jpg,23.0,Crescent City
+House of Flame And Shadow,2,4.2,848,"https://m.media-amazon.com/images/I/91jbHTNpy6L._AC_UF1000,1000_QL80_.jpg",23.0,Crescent City
+Red Rising,4,4.6,368,https://m.media-amazon.com/images/I/81wGzzxqHSL.jpg,24.0,Red Rising
+Golden Son,4,4.7,464,"https://m.media-amazon.com/images/I/8156BYo4nqL._AC_UF1000,1000_QL80_DpWeblab_.jpg",24.0,Red Rising
+Morning Star,4,4.8,544,"https://m.media-amazon.com/images/I/61qyWTP8RtL._AC_UF1000,1000_QL80_.jpg",24.0,Red Rising
+Dark Age,4,4.9,800,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1525464420i/29226553.jpg,24.0,Red Rising
+Iron Gold,4,4.8,624,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1716325988i/33257757.jpg,24.0,Red Rising
+The Black Prism,1,4.6,624,https://www.hachettebookgroup.com/wp-content/uploads/2024/01/9780316087544.jpg,25.0,Lightbringer
+Powerless,2,4.17,400,https://images.amazon.com/poweless.jpg,26.0,Powerless
+Reckless,2,4.1,400,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1731714752i/183086339.jpg,26.0,Powerless
+Fearless,2,4.1,608,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1730330746i/214151222.jpg,26.0,Powerless
+The 4-Hour Workweek,9,4.5,368,"https://m.media-amazon.com/images/I/6142S0D-PiL._AC_UF1000,1000_QL80_.jpg",27.0,
+The 5 AM Club,9,4.4,336,https://m.media-amazon.com/images/I/712VrOZ60zL.jpg,28.0,
+Atomic Habits,9,4.8,320,https://m.media-amazon.com/images/I/81ANaVZk5LL.jpg,29.0,
+The Miracle Morning,9,4.6,224,https://diwanegypt.com/wp-content/uploads/2021/10/9781473668942.jpg,30.0,
+Eloquent JavaScript,10,4.5,472,"https://m.media-amazon.com/images/I/81RxMMXUnFL._AC_UF1000,1000_QL80_.jpg",31.0,
+You Don't Know JS Yet,10,4.7,624,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1580357376i/50718908.jpg,32.0,
+JavaScript: The Good Parts,10,4.6,176,"https://m.media-amazon.com/images/I/7185IMvz88L._AC_UF1000,1000_QL80_.jpg",33.0,
+JavaScript: The Definitive Guide,10,4.5,800,"https://m.media-amazon.com/images/I/91xorHXzWbL._AC_UF1000,1000_QL80_.jpg",33.0,
+Learn Enough Python to Be Dangerous,10,4.5,800,https://softcover.s3.amazonaws.com/636/learn_enough_python/images/cover-web.png,34.0,
+Shatter Me,2,4.2,338,https://m.media-amazon.com/images/I/81RxMMXUnFL.jpg,35.0,Shatter Me
+Unravel Me,2,4.3,416,https://m.media-amazon.com/images/I/81fAAv2NP4L.jpg,35.0,Shatter Me
+Ignite Me,2,4.4,416,https://diwanegypt.com/wp-content/uploads/2021/05/9781405291774.jpg,35.0,Shatter Me
+Restore Me,2,4.5,416,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1507232049i/34992929.jpg,35.0,Shatter Me
+Defy Me,2,4.6,416,https://diwanegypt.com/wp-content/uploads/2020/08/9781405291798.jpg,35.0,Shatter Me
+Imagine Me,2,4.7,416,https://m.media-amazon.com/images/I/714Pnja0JyL.jpg,35.0,Shatter Me
+The Darkest Minds,2,4.2,496,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1343178841i/10576365.jpg,36.0,The Darkest Minds
+The Darkest Legacy,2,4.3,496,https://m.media-amazon.com/images/I/81ZP+c0lTlL.jpg,36.0,The Darkest Minds
+The Inheritance Games,14,4.6,368,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587396413l/52439531.jpg,37.0,The Inheritance Games
+The Hawthorne Legacy,14,4.7,368,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1610493390i/50531218.jpg,37.0,The Inheritance Games
+The Final Gambit,14,4.8,368,"https://m.media-amazon.com/images/I/81jlxkx8-OL._AC_UF1000,1000_QL80_.jpg",37.0,The Inheritance Games
+How To Win Friends and Influence People,9,4.5,288,"https://m.media-amazon.com/images/I/611OWa8x+WL._AC_UF1000,1000_QL80_.jpg",38.0,
+The 7 Habits of Highly Effective People,9,4.6,384,https://diwanegypt.com/wp-content/uploads/2020/12/9781471195204.jpg,39.0,

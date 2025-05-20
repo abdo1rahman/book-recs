@@ -1,0 +1,89 @@
+title,Author,genre,amazon_rating,book_length,series_title,cover_img_url
+Harry Potter and the Sorcerer's Stone,J.K. Rowling,Fantasy,4.8,309,Harry Potter,"https://m.media-amazon.com/images/I/81q77Q39nEL._AC_UF1000,1000_QL80_.jpg"
+The Hunger Games,Suzanne Collins,YA Fantasy,4.7,374,The Hunger Games,https://diwanegypt.com/wp-content/uploads/2020/08/9780439023528.jpg
+Twilight,Stephenie Meyer,Romance,4.5,498,Twilight Saga,https://diwanegypt.com/wp-content/uploads/2022/02/9781904233657.jpg
+Dune,Frank Herbert,Sci-Fi,4.6,412,Dune,https://diwanegypt.com/wp-content/uploads/2020/12/9780441172719.jpg
+The Girl on the Train,,Thriller,4.3,336,,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1574805682i/22557272.jpg
+Divergent,Veronica Roth,YA Fantasy,4.3,487,Divergent,https://upload.wikimedia.org/wikipedia/en/f/f4/Divergent_%28book%29_by_Veronica_Roth_US_Hardcover_2011.jpg
+The Da Vinci Code,Dan Brown,Thriller,4.4,454,Robert Langdon,https://diwanegypt.com/wp-content/uploads/2022/06/9780552159715.jpg
+A Game of Thrones,George R.R. Martin,Adult Fantasy,4.7,694,A Song of Ice and Fire,"https://m.media-amazon.com/images/I/81dvjub+IRL._AC_UF1000,1000_QL80_.jpg"
+It,Stephen King,Horror,4.5,1138,,"https://m.media-amazon.com/images/I/71ZIovNjw+L._AC_UF1000,1000_QL80_.jpg"
+"The Lion, the Witch and the Wardrobe",C.S. Lewis,Fantasy,4.8,206,The Chronicles of Narnia,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1353029077i/100915.jpg
+The Martian,Andy Weir,Sci-Fi,4.6,369,,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1413706054i/18007564.jpg
+To Kill a Mockingbird,Harper Lee,Literature,4.7,336,,"https://m.media-amazon.com/images/I/71FxgtFKcQL._AC_UF1000,1000_QL80_.jpg"
+The Power of Habit,Charles Duhigg,Self-Help,4.6,371,,https://diwanegypt.com/wp-content/uploads/2020/08/9781847946249.jpg
+Clean Code,Robert C. Martin,Programming,4.7,464,,"https://m.media-amazon.com/images/I/51E2055ZGUL._AC_UF1000,1000_QL80_.jpg"
+Flatland,Edwin A. Abbott,Math,4.4,160,,https://m.media-amazon.com/images/I/61wubGbULDL.jpg
+Sapiens,Yuval Noah Harari,Science,4.8,443,,https://m.media-amazon.com/images/I/713jIoMO3UL.jpg
+A Clash of Kings,George R.R. Martin,Adult Fantasy,4.7,768,A Song of Ice and Fire,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1567840212i/10572.jpg
+The Lightning Thief,Rick Riordan,YA Fantasy,4.6,377,Percy Jackson,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1400602609i/28187.jpg
+Gone Girl,Gillian Flynn,Thriller,4.2,432,,"https://m.media-amazon.com/images/I/71NV0obX14L._AC_UF1000,1000_QL80_.jpg"
+The Subtle Art of Not Giving a F*ck,Mark Manson,Self-Help,4.5,224,,"https://m.media-amazon.com/images/I/71QKQ9mwV7L._AC_UF1000,1000_QL80_.jpg"
+1984,George Orwell,Dystopian,4.7,328,,https://m.media-amazon.com/images/I/61NAx5pd6XL.jpg
+The Catcher in the Rye,J.D. Salinger,Literature,4.3,277,,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1398034300i/5107.jpg
+The Hobbit,J.R.R. Tolkien,Fantasy,4.8,310,,https://m.media-amazon.com/images/I/712cDO7d73L.jpg
+The Fellowship of the Ring,J.R.R. Tolkien,Fantasy,4.8,423,,https://diwanegypt.com/wp-content/uploads/2020/08/9780261102354.jpg
+The Two Towers,J.R.R. Tolkien,Fantasy,4.8,352,,https://upload.wikimedia.org/wikipedia/en/a/a1/The_Two_Towers_cover.gif
+The Return of the King,J.R.R. Tolkien,Fantasy,4.8,416,,https://upload.wikimedia.org/wikipedia/en/1/11/The_Return_of_the_King_cover.gif
+The Unfinished Tales,J.R.R. Tolkien,Fantasy,4.6,400,,https://harpercollins.co.uk/cdn/shop/files/x9780007322572_ba79c9d6-9332-4273-943c-699d3a1f5aa9.jpg?v=1746592130
+The Letters of J.R.R. Tolkien,J.R.R. Tolkien,Fantasy,4.6,300,,https://upload.wikimedia.org/wikipedia/en/d/db/Tolkien_Letters_Cover.jpg
+The Art of The Letters of J.R.R. Tolkien,J.R.R. Tolkien,Fantasy,4.9,611,,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1685925271i/172268944.jpg
+The Art of The Lord of the Rings,J.R.R. Tolkien,Fantasy,4.9,182,,"https://m.media-amazon.com/images/I/515OF+2hpYL._AC_UF894,1000_QL80_.jpg"
+The Art of The Lord of the Rings: The Return of the King,J.R.R. Tolkien,Fantasy,3.9,454,,https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQQc9TF2jMcUd4xoSyvFS1be_J9C1jHLjm4FTAqmBJs9jcBLzOJoSvylFlc5zMbVnh0LofggQ
+The Art of The Lord of the Rings: The Two Towers,J.R.R. Tolkien,Fantasy,3.7,727,,https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRfX3_TmvNfKHyrmY9WhWPQmneBgdlvzewYM2SZ9RPio7CSFAsy
+The Art of The Lord of the Rings: The Hobbit,J.R.R. Tolkien,Fantasy,4.7,222,,"https://m.media-amazon.com/images/I/81Ie38oW57L._AC_UF1000,1000_QL80_.jpg"
+The Art of The Lord of the Rings: The History of Middle-earth,J.R.R. Tolkien,Fantasy,4.5,253,,https://archive.org/services/img/history-of-middle-earth-01-the-book-of-lost-tales-1/full/pct:200/0/default.jpg
+The Art of The Lord of the Rings: The Children of H?rin,J.R.R. Tolkien,Fantasy,3.8,554,,https://upload.wikimedia.org/wikipedia/en/8/85/The_Children_of_Hurin_cover.jpg
+The Art of The Lord of the Rings: The Fellowship of the Ring,J.R.R. Tolkien,Fantasy,4.2,791,,https://m.media-amazon.com/images/I/512zVlD070L.jpg
+The Art of The Lord of the Rings: The Silmarillion,J.R.R. Tolkien,Fantasy,4.1,527,,"https://m.media-amazon.com/images/I/81Ygs92I6GL._AC_UF1000,1000_QL80_.jpg"
+The Cruel Prince,Holly Black,YA Fantasy,4.2,370,Folk of the Air,https://online.fliphtml5.com/qlqrn/zzwr/files/large/1.webp?1641883129&1641883129
+The Wicked King,Holly Black,YA Fantasy,4.3,368,Folk of the Air,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1520620414i/26032887.jpg
+The Queen of Nothing,Holly Black,YA Fantasy,4.4,300,Folk of the Air,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1553624975i/26032912.jpg
+The Stolen Heir,Holly Black,YA Fantasy,4.5,370,Elfhame,https://diwanegypt.com/wp-content/uploads/2023/06/9781471413629.jpg
+The Prisoner's Throne,Holly Black,YA Fantasy,4.6,384,Elfhame,https://diwanegypt.com/wp-content/uploads/2024/07/9781471415227.jpg
+Throne of Glass,Sarah J. Maas,YA Fantasy,4.5,432,Throne of Glass,"https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale,dpr_1.5/jackets/9781526635297.jpg"
+Crown of Midnight,Sarah J. Maas,YA Fantasy,4.6,420,Throne of Glass,"https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale,dpr_1.5/jackets/9781526635211.jpg"
+Heir of Fire,Sarah J. Maas,YA Fantasy,4.7,562,Throne of Glass,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1673566654i/76706470.jpg
+Queen of Shadows,Sarah J. Maas,YA Fantasy,4.8,648,Throne of Glass,https://cherryblossom-books.com/wp-content/uploads/2022/11/9781639731015.jpeg
+Empire of Storms,Sarah J. Maas,YA Fantasy,4.9,704,Throne of Glass,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1676979605i/76713323.jpg
+Kingdom of Ash,Sarah J. Maas,YA Fantasy,4.9,984,Throne of Glass,https://diwanegypt.com/wp-content/uploads/2023/05/9781526635273.jpg
+The Assassin's Blade,Sarah J. Maas,YA Fantasy,4.8,672,Throne of Glass,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680869667i/126062562.jpg
+A Court of Thorns and Roses,Sarah J. Maas,YA Fantasy,4.6,432,A Court of Thorns and Roses,https://images.amazon.com/court_thorns_roses.jpg
+A Court of Mist and Fury,Sarah J. Maas,YA Fantasy,4.7,624,A Court of Thorns and Roses,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1620325671i/50659468.jpg
+A Court of Wings and Ruin,Sarah J. Maas,YA Fantasy,4.8,704,A Court of Thorns and Roses,https://diwanegypt.com/wp-content/uploads/2020/12/9781526617170.jpg
+A Court of Frost and Starlight,Sarah J. Maas,YA Fantasy,4.5,272,A Court of Thorns and Roses,https://diwanegypt.com/wp-content/uploads/2021/03/9781526617187-1.jpg
+A Court of Silver Flames,Sarah J. Maas,YA Fantasy,4.6,768,A Court of Thorns and Roses,https://m.media-amazon.com/images/I/91E4aDzo8xL.jpg
+House of Earth and Blood,Sarah J. Maas,YA Fantasy,4.7,800,Crescent City,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1559142847i/44778083.jpg
+House of Sky and Breath,Sarah J. Maas,YA Fantasy,4.8,800,Crescent City,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1633097753i/40132775.jpg
+House of Flame And Shadow,Sarah J. Maas,YA Fantasy,4.2,848,Crescent City,"https://m.media-amazon.com/images/I/91jbHTNpy6L._AC_UF1000,1000_QL80_.jpg"
+Red Rising,Pierce Brown,Sci-Fi,4.6,368,Red Rising,https://m.media-amazon.com/images/I/81wGzzxqHSL.jpg
+Golden Son,Pierce Brown,Sci-Fi,4.7,464,Red Rising,"https://m.media-amazon.com/images/I/8156BYo4nqL._AC_UF1000,1000_QL80_DpWeblab_.jpg"
+Morning Star,Pierce Brown,Sci-Fi,4.8,544,Red Rising,"https://m.media-amazon.com/images/I/61qyWTP8RtL._AC_UF1000,1000_QL80_.jpg"
+Dark Age,Pierce Brown,Sci-Fi,4.9,800,Red Rising,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1525464420i/29226553.jpg
+Iron Gold,Pierce Brown,Sci-Fi,4.8,624,Red Rising,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1716325988i/33257757.jpg
+The Black Prism,Brent Weeks,Fantasy,4.6,624,Lightbringer,https://www.hachettebookgroup.com/wp-content/uploads/2024/01/9780316087544.jpg
+Powerless,Lauren Roberts,YA Fantasy,4.17,400,Powerless,https://images.amazon.com/poweless.jpg
+Reckless,Lauren Roberts,YA Fantasy,4.1,400,Powerless,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1731714752i/183086339.jpg
+Fearless,Lauren Roberts,YA Fantasy,4.1,608,Powerless,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1730330746i/214151222.jpg
+The 4-Hour Workweek,Tim Ferriss,Self-Help,4.5,368,,"https://m.media-amazon.com/images/I/6142S0D-PiL._AC_UF1000,1000_QL80_.jpg"
+The 5 AM Club,Robin Sharma,Self-Help,4.4,336,,https://m.media-amazon.com/images/I/712VrOZ60zL.jpg
+Atomic Habits,James Clear,Self-Help,4.8,320,,https://m.media-amazon.com/images/I/81ANaVZk5LL.jpg
+The Miracle Morning,Hal Elrod,Self-Help,4.6,224,,https://diwanegypt.com/wp-content/uploads/2021/10/9781473668942.jpg
+Eloquent JavaScript,Marijn Haverbeke,Programming,4.5,472,,"https://m.media-amazon.com/images/I/81HqVRRwp3L._AC_UF1000,1000_QL80_.jpg"
+You Don't Know JS Yet,Kyle Simpson,Programming,4.7,624,,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1580357376i/50718908.jpg
+JavaScript: The Good Parts,Douglas Crockford,Programming,4.6,176,,"https://m.media-amazon.com/images/I/7185IMvz88L._AC_UF1000,1000_QL80_.jpg"
+JavaScript: The Definitive Guide,Douglas Crockford,Programming,4.5,800,,"https://m.media-amazon.com/images/I/91xorHXzWbL._AC_UF1000,1000_QL80_.jpg"
+Learn Enough Python to Be Dangerous,Michael Hartl,Programming,4.5,800,,https://softcover.s3.amazonaws.com/636/learn_enough_python/images/cover-web.png
+Shatter Me,Taherah Mafi,YA Fantasy,4.2,338,Shatter Me,https://m.media-amazon.com/images/I/81RxMMXUnFL.jpg
+Unravel Me,Taherah Mafi,YA Fantasy,4.3,416,Shatter Me,https://m.media-amazon.com/images/I/81fAAv2NP4L.jpg
+Ignite Me,Tahereh Mafi,YA Fantasy,4.4,416,Shatter Me,https://diwanegypt.com/wp-content/uploads/2021/05/9781405291774.jpg
+Restore Me,Tahereh Mafi,YA Fantasy,4.5,416,Shatter Me,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1507232049i/34992929.jpg
+Defy Me,Tahereh Mafi,YA Fantasy,4.6,416,Shatter Me,https://diwanegypt.com/wp-content/uploads/2020/08/9781405291798.jpg
+Imagine Me,Tahereh Mafi,YA Fantasy,4.7,416,Shatter Me,https://m.media-amazon.com/images/I/714Pnja0JyL.jpg
+The Darkest Minds,Alexandra Bracken,YA Fantasy,4.2,496,The Darkest Minds,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1343178841i/10576365.jpg
+The Darkest Legacy,Alexandra Bracken,YA Fantasy,4.3,496,The Darkest Minds,https://m.media-amazon.com/images/I/81ZP+c0lTlL.jpg
+The Inheritance Games,Jennifer Lynn Barnes,YA Mystery,4.6,368,The Inheritance Games,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587396413l/52439531.jpg
+The Hawthorne Legacy,Jennifer Lynn Barnes,YA Mystery,4.7,368,The Inheritance Games,https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1610493390i/50531218.jpg
+The Final Gambit,Jennifer Lynn Barnes,YA Mystery,4.8,368,The Inheritance Games,"https://m.media-amazon.com/images/I/81jlxkx8-OL._AC_UF1000,1000_QL80_.jpg"
+How To Win Friends and Influence People,Dale Carnegie,Self-Help,4.5,288,,"https://m.media-amazon.com/images/I/611OWa8x+WL._AC_UF1000,1000_QL80_.jpg"
+The 7 Habits of Highly Effective People,Stephen R. Covey,Self-Help,4.6,384,,https://diwanegypt.com/wp-content/uploads/2020/12/9781471195204.jpg
