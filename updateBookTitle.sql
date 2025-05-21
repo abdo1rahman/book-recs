@@ -1,3 +1,6 @@
-UPDATE TABLE books
-SET title = '__'
-WHERE book_id = '__';
+CREATE PROCEDURE update_title(upd TEXT, bkid INT) LANGUAGE plpgsql AS $$ BEGIN
+UPDATE books
+SET title = upd
+WHERE book_id = bkid;
+END;
+$$;
