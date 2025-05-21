@@ -1,0 +1,42 @@
+body,
+html {
+  margin: 1rem;
+}
+
+.card {
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.main-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 80%;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
+  max-width: 50%;
+}
+
+.err {
+  height: fit-content;
+  width: fit-content;
+  max-height: 4rem !important;
+  align-self: center;
+  padding: 1rem;
+  background-color: rgba(255, 0, 0, 0.695);
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}

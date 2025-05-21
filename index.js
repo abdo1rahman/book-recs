@@ -11,21 +11,26 @@ const app = express();
 const port = 3000;
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-app.set("view engine", path.join(__dirname, "views"));
-app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
+app.set("view engine", "ejs");
+app.set("views", path.join(__dirname, "views"));
+app.use(bodyParser.urlencoded({ extended: true }));
 
 const db = new pg.Client({
   user: "postgres",
   host: "localhost",
   database: "Book_recs",
-  password: "12345678",
-  port: 5433,
+  password: "123456",
+  port: 5432,
 });
 
 db.connect()
   .then(() => console.log("Connected to DB"))
   .catch((err) => console.error(err));
+
+app.get("/", (req, res) => {
+  res.redirect("/register");
+});
 
 app.get("/register", (req, res) => {
   res.render("register.ejs");
@@ -53,11 +58,11 @@ app.post("/login", async (req, res) => {
         res.redirect("/home");
       } else {
         console.log("Incorrect password");
-        res.redirect("/"); // Or render login page with error
+        res.render("login.ejs", {err: true}); // Or render login page with error
       }
     } else {
       console.log("User not found");
-      res.redirect("/");
+      res.render("login.ejs", {err: true});
     }
   } catch (err) {
     console.log(err);
@@ -116,8 +121,8 @@ app.get("/search", (req, res) => {
 
 app.post("/search", async (req, res) => {
   const { title, author, genre, ratingMin, series } = req.body;
-  const filters = [];
-  const values = [];
+  var filters = [];
+  var values = [];
 
   if (title) {
     filters.push(`b.title ILIKE $${filters.length + 1}`);
@@ -151,10 +156,11 @@ app.post("/search", async (req, res) => {
   }
 
   try {
-    const result = await db.query(baseQuery, values).rows;
-    result = result.rows;
+    const result = await db.query(baseQuery, values);
+    const rows = result.rows;
 
-    res.render("index.ejs", { books: result });
+    if (rows.length > 0) res.render("index.ejs", { books: rows });
+    else res.render("search.ejs", {notFound: true})
   } catch (err) {
     console.log(err);
     res.status(500).send("Internal Server Error");
@@ -165,3 +171,7 @@ app.post("/search", async (req, res) => {
 // * genre
 // * minimum rating
 // * series
+
+app.listen(port, () => {
+  console.log(`Server listening on http://localhost:3000`);
+});
