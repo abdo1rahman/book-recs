@@ -11,7 +11,7 @@ const app = express();
 const port = 3000;
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-app.set('view engine', path.join(__dirname, "views"));
+app.set("view engine", path.join(__dirname, "views"));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
@@ -23,7 +23,9 @@ const db = new pg.Client({
   port: 5433,
 });
 
-db.connect().then(() => console.log('Connected to DB')).catch(err => console.error(err));
+db.connect()
+  .then(() => console.log("Connected to DB"))
+  .catch((err) => console.error(err));
 
 app.get("/register", (req, res) => {
   res.render("register.ejs");
@@ -33,21 +35,52 @@ app.get("/login", (req, res) => {
   res.render("login.ejs");
 });
 
-app.post("/register", async (req, res) => {
-  //
-  const name = req.body.name
-  const email = req.body.email
-  const password = req.body.password
+app.post("/login", async (req, res) => {
+  const { email, password } = req.body;
 
   try {
-    const checkResults = await db.query("SELECT * FROM users WHERE email = $1", [email])
+    const checkResults = await db.query(
+      "SELECT * FROM users WHERE email = $1",
+      [email]
+    );
 
     if (checkResults.rows.length > 0) {
-      res.redirect('/');
+      const user = checkResults.rows[0];
+
+      const match = await bcrypt.compare(password, user.password);
+
+      if (match) {
+        res.redirect("/home");
+      } else {
+        console.log("Incorrect password");
+        res.redirect("/"); // Or render login page with error
+      }
+    } else {
+      console.log("User not found");
+      res.redirect("/");
+    }
+  } catch (err) {
+    console.log(err);
+    res.status(500).send("Internal server error");
+  }
+});
+
+app.post("/register", async (req, res) => {
+  const { name, email, password } = req.body;
+
+  try {
+    const checkResults = await db.query(
+      "SELECT * FROM users WHERE email = $1",
+      [email]
+    );
+
+    if (checkResults.rows.length > 0) {
+      res.redirect("/home");
     } else {
       try {
         const hashedPassword = await bcrypt.hash(password, 10);
-        const result = await db.query("INSERT INTO users(name, email, password) VALUES ($1, $2, $3)",
+        const result = await db.query(
+          "INSERT INTO users(name, email, password) VALUES ($1, $2, $3)",
           [name, email, hashedPassword]
         );
         res.redirect("/home");
@@ -56,12 +89,25 @@ app.post("/register", async (req, res) => {
       }
     }
   } catch (err) {
-    console.log(err)
+    console.log(err);
   }
-})
+});
 
 app.get("/home", async (req, res) => {
-  res.render('index.ejs');
+  try {
+    const results = await db.query(`
+      SELECT 
+        b.title, b.series, b.rating, b.cover_lnk, g.genre_name, a.author_name
+      FROM books b
+      JOIN authors a ON b.author_id = a.author_id
+      JOIN genres g ON b.genre_id = g.genre_id
+      `);
+    const books = results.rows;
+    res.render("index.ejs", { books });
+  } catch (err) {
+    console.error("Error fetching data", err);
+    res.status(500).send("Internal Server Error");
+  }
 });
 
 app.get("/search", (req, res) => {
@@ -107,13 +153,13 @@ app.post("/search", async (req, res) => {
   try {
     const result = await db.query(baseQuery, values).rows;
     result = result.rows;
-  
-    res.render('index.ejs', {books: result})
+
+    res.render("index.ejs", { books: result });
   } catch (err) {
     console.log(err);
-    res.status(500).send("Internal Server Error")
+    res.status(500).send("Internal Server Error");
   }
-})
+});
 // * title
 // * author
 // * genre
