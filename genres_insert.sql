@@ -1,0 +1,15 @@
+INSERT INTO genres (genre_id, genre) VALUES
+(1, 'Fantasy'),
+(2, 'YA Fantasy'),
+(3, 'Romance'),
+(4, 'Sci-Fi'),
+(5, 'Thriller'),
+(6, 'Adult Fantasy'),
+(7, 'Horror'),
+(8, 'Literature'),
+(9, 'Self-Help'),
+(10, 'Programming'),
+(11, 'Math'),
+(12, 'Science'),
+(13, 'Dystopian'),
+(14, 'YA Mystery');
