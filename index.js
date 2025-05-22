@@ -24,12 +24,11 @@ const db = new pg.Client({
   port: 5432,
 });
 
-db.connect()
-  .then(() => console.log("Connected to DB"))
-  .catch((err) => console.error(err));
+await db.connect();
+console.log("database was connected");
 
 app.get("/", (req, res) => {
-  res.redirect("/register");
+  res.redirect("/login");
 });
 
 app.get("/register", (req, res) => {
@@ -58,11 +57,11 @@ app.post("/login", async (req, res) => {
         res.redirect("/home");
       } else {
         console.log("Incorrect password");
-        res.render("login.ejs", {err: true}); // Or render login page with error
+        res.render("login.ejs", { err: true }); // Or render login page with error
       }
     } else {
       console.log("User not found");
-      res.render("login.ejs", {err: true});
+      res.render("login.ejs", { err: true });
     }
   } catch (err) {
     console.log(err);
@@ -107,6 +106,8 @@ app.get("/home", async (req, res) => {
       JOIN authors a ON b.author_id = a.author_id
       JOIN genres g ON b.genre_id = g.genre_id
       `);
+    console.log("selecting all data");
+
     const books = results.rows;
     res.render("index.ejs", { books });
   } catch (err) {
@@ -116,10 +117,12 @@ app.get("/home", async (req, res) => {
 });
 
 app.get("/search", (req, res) => {
-  res.render("search.ejs");
+  console.log("search.ejs opened");
+  res.render("search.ejs", { notFound: false });
 });
 
 app.post("/search", async (req, res) => {
+  console.log("Received POST /search with body:", req.body);
   const { title, author, genre, ratingMin, series } = req.body;
   var filters = [];
   var values = [];
@@ -146,7 +149,7 @@ app.post("/search", async (req, res) => {
   }
 
   let baseQuery = `
-    SELECT * FROM books b
+    SELECT b.title, b.series, b.rating, b.cover_lnk, g.genre_name, a.author_name FROM books b
     JOIN authors a ON b.author_id = a.author_id
     JOIN genres g ON b.genre_id = g.genre_id
   `;
@@ -158,9 +161,10 @@ app.post("/search", async (req, res) => {
   try {
     const result = await db.query(baseQuery, values);
     const rows = result.rows;
+    console.log("Query results: ", rows);
 
     if (rows.length > 0) res.render("index.ejs", { books: rows });
-    else res.render("search.ejs", {notFound: true})
+    else res.render("search.ejs", { notFound: true });
   } catch (err) {
     console.log(err);
     res.status(500).send("Internal Server Error");
