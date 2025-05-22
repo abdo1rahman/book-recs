@@ -25,7 +25,7 @@ const db = new pg.Client({
 });
 
 await db.connect();
-console.log("database was connected");
+console.log("Connected to DB");
 
 app.get("/", (req, res) => {
   res.redirect("/login");
@@ -56,15 +56,15 @@ app.post("/login", async (req, res) => {
       if (match) {
         res.redirect("/home");
       } else {
-        console.log("Incorrect password");
+        console.error("Incorrect password");
         res.render("login.ejs", { err: true }); // Or render login page with error
       }
     } else {
-      console.log("User not found");
+      console.error("User not found");
       res.render("login.ejs", { err: true });
     }
   } catch (err) {
-    console.log(err);
+    console.error(err);
     res.status(500).send("Internal server error");
   }
 });
@@ -89,11 +89,11 @@ app.post("/register", async (req, res) => {
         );
         res.redirect("/home");
       } catch (err) {
-        console.log(`Error inserting user into database: ${err}`);
+        console.error(`Error inserting user into database: ${err}`);
       }
     }
   } catch (err) {
-    console.log(err);
+    console.error(err);
   }
 });
 
@@ -106,7 +106,7 @@ app.get("/home", async (req, res) => {
       JOIN authors a ON b.author_id = a.author_id
       JOIN genres g ON b.genre_id = g.genre_id
       `);
-    console.log("selecting all data");
+    
 
     const books = results.rows;
     res.render("index.ejs", { books });
@@ -117,12 +117,12 @@ app.get("/home", async (req, res) => {
 });
 
 app.get("/search", (req, res) => {
-  console.log("search.ejs opened");
+  
   res.render("search.ejs", { notFound: false });
 });
 
 app.post("/search", async (req, res) => {
-  console.log("Received POST /search with body:", req.body);
+  
   const { title, author, genre, ratingMin, series } = req.body;
   var filters = [];
   var values = [];
@@ -161,7 +161,7 @@ app.post("/search", async (req, res) => {
   try {
     const result = await db.query(baseQuery, values);
     const rows = result.rows;
-    console.log("Query results: ", rows);
+    
 
     if (rows.length > 0) res.render("index.ejs", { books: rows });
     else res.render("search.ejs", { notFound: true });
